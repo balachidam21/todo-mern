@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# `To-Do App`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a web application with authorization and stores your to-do items in MongoDB.
 
 ## Available Scripts
 
@@ -27,7 +27,5 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-### `To-Do App`
 
-It is a web application with authorization and stores your to-do items in MongoDB.
 
