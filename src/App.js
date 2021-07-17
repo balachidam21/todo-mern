@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
+import Welcome from "./pages/Welcome";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+export const CredentialsContext = React.createContext();
 function App() {
+  const credentialsState = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <CredentialsContext.Provider value={credentialsState}>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Welcome />
+            </Route>
+          </Switch>
+        </Router>
+      </CredentialsContext.Provider>
+
     </div>
   );
 }
