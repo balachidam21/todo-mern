@@ -2,7 +2,7 @@
 
 It is a web application with authorization and stores your to-do items in MongoDB.
 
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
