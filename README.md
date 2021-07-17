@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-###`To-Do App`
+### `To-Do App`
 
 It is a web application with authorization and stores your to-do items in MongoDB.
 
