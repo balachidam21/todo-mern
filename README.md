@@ -2,6 +2,15 @@
 
 It is a web application with authorization and stores your to-do items in MongoDB.
 
+This application uses a three tier architecture which separates the client and server.
+
+REST API architecture is maintained between front-end and back-end.
+
+## Steps to be Followed
+1. To start running this project, node.js must be already installed in your computer.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
